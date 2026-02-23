@@ -952,7 +952,7 @@
   <div class="contact-inner">
     <p>I'm actively looking for entry-level Software Programmer opportunities. Whether you have a role, a project, or just want to connect — my inbox is open.</p>
     <div class="contact-links">
-      <a id="email-link" class="contact-link" href="#">📧 sanjaychari999@gmail.com</a>
+      <a class="contact-link" onclick="window.location.href='mai'+'lto:'+'sanjaychari999'+'@'+'gmail.com'" style="cursor:pointer;">📧 sanjaychari999@gmail.com</a>
       <a href="https://www.linkedin.com/in/sanjaychari007/" class="contact-link" target="_blank">🔗 LinkedIn</a>
       <a href="https://github.com/Sanjay1318" class="contact-link" target="_blank">💻 GitHub</a>
       <a href="tel:+918247398007" class="contact-link">📱 Call Me</a>
@@ -966,12 +966,6 @@
 </footer>
 
 <script>
-  // Build email link dynamically to prevent obfuscation
-  const u = 'sanjaychari999';
-  const d = 'gmail.com';
-  const el = document.getElementById('email-link');
-  el.href = 'mailto:' + u + '@' + d;
-
   // Scroll-triggered timeline animation - items visible by default, animate in if JS loads fast enough
   const items = document.querySelectorAll('.timeline-item');
   items.forEach(item => item.classList.add('animate-hidden'));
